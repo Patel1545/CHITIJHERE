@@ -425,7 +425,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/chitij` - Download and upload files (sudo)🎬\n\n"
+        "`/Nitul` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -526,9 +526,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[chitij](https://t.me/chitijrajput)"
+    credit = "️[Nitul](https://t.me/nitul_sonara1)"
     if raw_text3 == '1':
-        CR = '[chitij](https://t.me/chitijrajput)'
+        CR = '[Nitul](https://t.me/nitul_sonara1)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
